@@ -52,7 +52,7 @@ export default function Home() {
       <title>Home | Dashboard</title>
     </Head>
     <Flex direction="column" width="100vw" height="100vh">
-      <Header user={user} logout={logout} isLoggingOut={isLoggingOut}/>""
+      <Header user={user} logout={logout} isLoggingOut={isLoggingOut}/>
       <Box flex="1" bg="purple.100" px='44' py='20'>
         <Tabs size='lg' colorScheme='purple' align='center'
         
